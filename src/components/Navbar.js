@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
   <div className="navbar fixed lg:navbar-lg w-full flex flex-wrap lg:flex-nowrap justify-between items-center bg-primary-dark text-white">
@@ -17,18 +18,15 @@ const Navbar = () => (
     >
       <nav>
         <ul className="flex flex-col items-center lg:flex-row gap-y-7 lg:gap-x-50">
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#skillset">Skillset</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#projects">Resume</a>
-          </li>
+          <NavLink exact to="/">
+            Home
+          </NavLink>
+          <NavLink exact to="/skillset">
+            Skillset
+          </NavLink>
+          <NavLink exact to="/projects">
+            Projects
+          </NavLink>
         </ul>
       </nav>
     </div>

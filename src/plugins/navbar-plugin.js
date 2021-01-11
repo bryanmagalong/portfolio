@@ -14,6 +14,10 @@ module.exports = ({ addComponents }) => {
         display: 'block',
       },
     },
+
+    '.active': {
+      color: '#FD6C4D',
+    },
   };
 
   addComponents(navbar, { variants: [ 'responsive', 'checked' ] });
