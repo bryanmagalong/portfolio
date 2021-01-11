@@ -1,21 +1,19 @@
+const plugin = require('tailwindcss/plugin');
+const navbarPlugin = require('./src/plugins/navbar-plugin');
+
 module.exports = {
   purge: [ './src/**/*.{js,jsx,ts,tsx}', './public/index.html' ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      height: {
-        navbar: '3.500rem',
-      },
       spacing: {
         //====== x axis
         sm: '2.063rem',
         lg: '8.563rem',
-        navbar: '1.625rem',
+        dropdown: '1.250rem',
       },
-      margin: {
-        y: {
-          title: '2.188rem',
-        },
+      gap: {
+        '50': '3.125rem',
       },
       colors: {
         primary: {
@@ -26,5 +24,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [ plugin(navbarPlugin) ],
 };
