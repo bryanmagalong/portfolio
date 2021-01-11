@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Navbar = () => (
-  <div className="navbar lg:navbar-lg w-full flex flex-wrap lg:flex-nowrap justify-between items-center bg-primary-dark text-white">
+  <div className="navbar fixed lg:navbar-lg w-full flex flex-wrap lg:flex-nowrap justify-between items-center bg-primary-dark text-white">
     <a href="#home">Magalong</a>
     <label for="menu-toggle" className="lg:hidden block">
       Menu
