@@ -1,15 +1,33 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar.js';
 import ContentWrapper from './components/ContentWrapper';
+import Projects from './components/Projects';
+import Skillset from './components/Skillset';
+import Home from './components/Home';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <ContentWrapper />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <ContentWrapper>
+          <Switch>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/skillset">
+              <Skillset />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </ContentWrapper>
+      </div>
+    </Router>
   );
 }
 
