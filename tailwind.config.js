@@ -10,10 +10,19 @@ module.exports = {
         //====== x axis
         sm: '2.063rem',
         lg: '8.563rem',
+        'text-gutter-y': '1.500rem',
+        'contact-gutter-y': '0.563rem',
         dropdown: '1.250rem',
+
+        '45': '2.813rem',
       },
       gap: {
         '50': '3.125rem',
+      },
+      fontSize: {
+        contact: '2.313em',
+        social: '1.313em',
+        sm: '0.688em',
       },
       colors: {
         primary: {
