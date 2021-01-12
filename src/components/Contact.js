@@ -1,4 +1,5 @@
 import React from 'react';
+import Icon from './Icon';
 
 const Contact = () => (
   <div className="text-secondary px-sm py-contact-gutter-y lg:text-center bg-primary-dark">
@@ -10,9 +11,17 @@ const Contact = () => (
       </div>
       <div className="mt-text-gutter-y lg:flex lg:items-center lg:gap-x-41">
         <h2 className="font-bold text-social">Find me on</h2>
-        <ul className="lg:flex lg:gap-x-18">
-          <li>Linkedin</li>
-          <li>Github</li>
+        <ul className="flex gap-x-18">
+          <li>
+            <a href="#">
+              <Icon icon="linkedin" width="30" height="30" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <Icon icon="github" width="30" height="30" />
+            </a>
+          </li>
         </ul>
       </div>
     </div>
