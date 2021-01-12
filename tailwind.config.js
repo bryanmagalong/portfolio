@@ -16,7 +16,8 @@ module.exports = {
 
         '45': '2.813rem',
         '26': '1.625em',
-        home: '13.625rem',
+        'home-top': '13.625rem',
+        'home-bottom': '10.125em',
       },
       gap: {
         '50': '3.125rem',
