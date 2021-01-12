@@ -15,6 +15,8 @@ module.exports = {
         dropdown: '1.250rem',
 
         '45': '2.813rem',
+        '26': '1.625em',
+        home: '13.625rem',
       },
       gap: {
         '50': '3.125rem',
@@ -25,6 +27,7 @@ module.exports = {
         contact: '2.313em',
         social: '1.313em',
         sm: '0.688em',
+        lg: '1.625em',
       },
       colors: {
         primary: {
