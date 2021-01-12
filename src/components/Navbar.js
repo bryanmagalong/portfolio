@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => (
   <div className="navbar fixed lg:navbar-lg w-full flex flex-wrap lg:flex-nowrap justify-between items-center bg-primary-dark text-white">
     <a href="#home">Magalong</a>
-    <label for="menu-toggle" className="lg:hidden block">
+    <label htmlFor="menu-toggle" className="lg:hidden block">
       Menu
     </label>
     <input
