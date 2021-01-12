@@ -18,6 +18,8 @@ module.exports = {
       },
       gap: {
         '50': '3.125rem',
+        '41': '2.563em',
+        '18': '1.125em',
       },
       fontSize: {
         contact: '2.313em',
