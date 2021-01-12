@@ -6,6 +6,7 @@ import ContentWrapper from './components/ContentWrapper';
 import Projects from './components/Projects';
 import Skillset from './components/Skillset';
 import Home from './components/Home';
+import Contact from './components/Contact.js';
 import './App.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             </Route>
           </Switch>
         </ContentWrapper>
+        <Contact />
       </div>
     </Router>
   );
