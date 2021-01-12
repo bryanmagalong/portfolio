@@ -2,7 +2,7 @@ import React from 'react';
 import Icon from './Icon';
 
 const Contact = () => (
-  <div className="text-secondary px-sm py-contact-gutter-y lg:text-center bg-primary-dark">
+  <div className="text-secondary px-sm lg:px-lg pt-contact-gutter-y pb-45 lg:text-center bg-primary-dark">
     <h1 className="font-bold text-contact uppercase">Contact</h1>
     <div className="grid lg:grid-cols-2 lg:gap-x-20">
       <div className="mt-text-gutter-y lg:flex lg:justify-end lg:items-center lg:gap-x-41">
@@ -10,8 +10,8 @@ const Contact = () => (
         <p>Email: **********@gmail.com</p>
       </div>
       <div className="mt-text-gutter-y lg:flex lg:items-center lg:gap-x-41">
-        <h2 className="font-bold text-social">Find me on</h2>
-        <ul className="flex gap-x-18">
+        <h2 className="font-bold text-social">Find me on:</h2>
+        <ul className="flex gap-x-18 lg:gap-x-41">
           <li>
             <a href="#">
               <Icon icon="linkedin" width="30" height="30" />
