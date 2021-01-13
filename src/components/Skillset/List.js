@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const List = ({ title, list }) => (
   <div>
@@ -6,5 +7,10 @@ const List = ({ title, list }) => (
     <ul>{list.map((elem) => <li key={elem.name}>{elem.name}</li>)}</ul>
   </div>
 );
+
+List.propTypes = {
+  title: PropTypes.string.isRequired,
+  list: PropTypes.arrayOf(PropTypes.object).isRequired,
+};
 
 export default List;
