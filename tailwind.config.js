@@ -6,6 +6,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      screens: {
+        xl: '1440px',
+      },
       spacing: {
         //====== x axis
         sm: '2.063rem',
@@ -14,17 +17,22 @@ module.exports = {
         'contact-gutter-y': '0.563rem',
         dropdown: '1.250rem',
 
+        '26': '1.625em',
         '45': '2.813rem',
       },
       gap: {
-        '50': '3.125rem',
-        '41': '2.563em',
         '18': '1.125em',
+        '26': '1.625em',
+        '41': '2.563em',
+        '50': '3.125rem',
+        '115': '7.188rem',
       },
       fontSize: {
-        contact: '2.313em',
-        social: '1.313em',
         sm: '0.688em',
+        lg: '1.625em',
+        xl: '2.250em',
+        social: '1.313em',
+        contact: '2.313em',
       },
       colors: {
         primary: {
