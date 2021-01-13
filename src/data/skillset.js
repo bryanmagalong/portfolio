@@ -28,7 +28,7 @@ export const skills = [
     learning: true,
   },
   {
-    name: 'PHP/SQL',
+    name: 'PHP',
     learning: false,
   },
   {
@@ -47,7 +47,7 @@ export const skills = [
 
 export const tools = [
   {
-    name: 'Vscode',
+    name: 'VSCode',
     learning: false,
   },
   {
@@ -61,9 +61,5 @@ export const tools = [
   {
     name: 'Postman',
     learning: false,
-  },
-  {
-    name: 'Figma',
-    learning: true,
   },
 ];
