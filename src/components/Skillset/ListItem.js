@@ -56,7 +56,7 @@ const ListItem = ({ name }) => {
   return (
     <li className="text-center">
       {checkNameIcon(name)}
-      <p>{name}</p>
+      <p className="mt-10">{name}</p>
     </li>
   );
 };
