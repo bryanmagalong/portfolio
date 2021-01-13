@@ -20,8 +20,8 @@ const Home = () => (
         </div>
         <HomePic
           className="hidden md:block xl:hidden"
-          width={200}
-          height={200}
+          width={230}
+          height={230}
         />
       </div>
     </div>
