@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 const List = ({ title, list }) => (
   <div>
     <h1 className="title lg:title-lg">{title}</h1>
-    <ul>{list.map((elem) => <li key={elem.name}>{elem.name}</li>)}</ul>
+    <ul className="grid grid-cols-3 xl:grid-cols-4 gap-x-sm text-white">
+      {list.map((elem) => <li key={elem.name}>{elem.name}</li>)}
+    </ul>
   </div>
 );
 
