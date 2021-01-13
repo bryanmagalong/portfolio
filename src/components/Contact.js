@@ -13,12 +13,12 @@ const Contact = () => (
         <h2 className="font-bold text-social">Find me on:</h2>
         <ul className="flex gap-x-18 lg:gap-x-41">
           <li>
-            <a href="#">
+            <a href="#linkedin">
               <Icon icon="linkedin" width="30" height="30" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#github">
               <Icon icon="github" width="30" height="30" />
             </a>
           </li>
