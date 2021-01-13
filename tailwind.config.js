@@ -1,5 +1,6 @@
 const plugin = require('tailwindcss/plugin');
 const navbarPlugin = require('./src/plugins/navbar-plugin');
+const textPlugin = require('./src/plugins/text-plugin');
 
 module.exports = {
   purge: [ './src/**/*.{js,jsx,ts,tsx}', './public/index.html' ],
@@ -43,5 +44,5 @@ module.exports = {
       },
     },
   },
-  plugins: [ plugin(navbarPlugin) ],
+  plugins: [ plugin(navbarPlugin), plugin(textPlugin) ],
 };
