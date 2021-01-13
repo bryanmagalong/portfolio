@@ -1,5 +1,5 @@
 import React from 'react';
-import homePic from './../../assets/home-pic-1.svg';
+import { ReactComponent as HomePic } from './../../assets/home-pic-1.svg';
 
 const Home = () => (
   <div className="pt-16 lg:flex lg:gap-x-50">
@@ -18,13 +18,19 @@ const Home = () => (
             library: <span className="text-secondary">React</span>.
           </p>
         </div>
-        <div className="hidden md:block xl:hidden">
-          <img src={homePic} alt="home" />
-        </div>
+        <HomePic
+          className="hidden md:block xl:hidden"
+          width={200}
+          height={200}
+        />
       </div>
     </div>
-    <div className="hidden xl:block xl:flex xl:items-center">
-      <img src={homePic} alt="home" />
+    <div>
+      <HomePic
+        className="hidden xl:block xl:flex xl:items-center"
+        width={500}
+        height={500}
+      />
     </div>
   </div>
 );
