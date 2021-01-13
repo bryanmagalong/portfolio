@@ -1,5 +1,6 @@
 const plugin = require('tailwindcss/plugin');
 const navbarPlugin = require('./src/plugins/navbar-plugin');
+const textPlugin = require('./src/plugins/text-plugin');
 
 module.exports = {
   purge: [ './src/**/*.{js,jsx,ts,tsx}', './public/index.html' ],
@@ -17,15 +18,17 @@ module.exports = {
         'contact-gutter-y': '0.563rem',
         dropdown: '1.250rem',
 
-        '26': '1.625em',
+        '10': '0.625rem',
+        '18': '1.125rem',
+        '26': '1.625rem',
+        '35': '2.188rem',
+        '41': '2.563rem',
         '45': '2.813rem',
-      },
-      gap: {
-        '18': '1.125em',
-        '26': '1.625em',
-        '41': '2.563em',
         '50': '3.125rem',
+        '60': '6rem',
+        '106': '6.625rem',
         '115': '7.188rem',
+        '242': '15.125rem',
       },
       fontSize: {
         sm: '0.688em',
@@ -43,5 +46,5 @@ module.exports = {
       },
     },
   },
-  plugins: [ plugin(navbarPlugin) ],
+  plugins: [ plugin(navbarPlugin), plugin(textPlugin) ],
 };
