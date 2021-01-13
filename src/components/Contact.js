@@ -1,5 +1,6 @@
 import React from 'react';
-import Icon from './Icon';
+import { ReactComponent as Linkedin } from './../assets/icons/linkedin.svg';
+import { ReactComponent as Github } from './../assets/icons/github.svg';
 
 const Contact = () => (
   <div className="text-secondary px-sm lg:px-lg pt-contact-gutter-y pb-45 lg:text-center bg-primary-dark">
@@ -14,12 +15,12 @@ const Contact = () => (
         <ul className="flex gap-x-18 lg:gap-x-41">
           <li>
             <a href="#linkedin">
-              <Icon icon="linkedin" width="30" height="30" />
+              <Linkedin width={30} height={30} />
             </a>
           </li>
           <li>
             <a href="#github">
-              <Icon icon="github" width="30" height="30" />
+              <Github icon="github" width={30} height={30} />
             </a>
           </li>
         </ul>
