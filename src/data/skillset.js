@@ -1,41 +1,69 @@
 export const skills = [
   {
-    name: 'html',
+    name: 'HTML',
     learning: false,
   },
   {
-    name: 'css',
+    name: 'CSS',
     learning: false,
   },
   {
-    name: 'javascript',
+    name: 'Javascript',
     learning: false,
   },
   {
-    name: 'react',
+    name: 'React',
     learning: false,
   },
   {
-    name: 'tailwindcss',
+    name: 'Redux',
+    learning: false,
+  },
+  {
+    name: 'Bootstrap',
+    learning: false,
+  },
+  {
+    name: 'TailwindCSS',
+    learning: true,
+  },
+  {
+    name: 'PHP/SQL',
+    learning: false,
+  },
+  {
+    name: 'Node.js',
+    learning: true,
+  },
+  {
+    name: 'Express',
+    learning: true,
+  },
+  {
+    name: 'MongoDB',
     learning: true,
   },
 ];
 
 export const tools = [
   {
-    name: 'vscode',
+    name: 'Vscode',
     learning: false,
   },
   {
-    name: 'git',
+    name: 'Git',
     learning: false,
   },
   {
-    name: 'adobexd',
+    name: 'AdobeXD',
     learning: false,
   },
   {
-    name: 'postman',
+    name: 'Postman',
     learning: false,
+  },
+  {
+    name: 'Figma',
+    learning: true,
   },
 ];
