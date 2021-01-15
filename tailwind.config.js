@@ -19,8 +19,10 @@ module.exports = {
         dropdown: '1.250rem',
 
         '10': '0.625rem',
+        '13': '0.813em',
         '18': '1.125rem',
         '26': '1.625rem',
+        '30': '1.875em',
         '35': '2.188rem',
         '41': '2.563rem',
         '45': '2.813rem',
@@ -36,6 +38,8 @@ module.exports = {
         xl: '2.250em',
         social: '1.313em',
         contact: '2.313em',
+        project: '1.25em',
+        techlist: '0.9em',
       },
       colors: {
         primary: {
