@@ -37,6 +37,8 @@ module.exports = {
         xl: '2.250em',
         social: '1.313em',
         contact: '2.313em',
+        project: '1.25em',
+        techlist: '0.813em',
       },
       colors: {
         primary: {

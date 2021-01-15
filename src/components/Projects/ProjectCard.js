@@ -6,9 +6,9 @@ const ProjectCard = ({ imgSrc, title, techList, description }) => (
       <img src={imgSrc} alt={title} />
     </div>
     <div className="lg:col-span-3">
-      <h2>{title}</h2>
-      <p>{techList.join(' - ')}</p>
-      <p>{description}</p>
+      <h2 className="text-project font-bold lg:text-lg">{title}</h2>
+      <p className="text-techlist italic mb-5">{techList.join(' - ')}</p>
+      <p className="mb-5">{description}</p>
     </div>
   </li>
 );
