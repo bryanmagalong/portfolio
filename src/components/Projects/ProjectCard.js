@@ -18,8 +18,8 @@ const ProjectCard = ({
       <p className="text-techlist italic mb-5">{techList.join(' - ')}</p>
       <p className="mb-5">{description}</p>
       <div className="flex gap-x-18">
-        <Button name="Github" link={github} />
-        <Button name="Demo" link={website} />
+        {github && <Button name="Github" link={github} />}
+        {website && <Button name="Demo" link={website} />}
       </div>
     </div>
   </li>

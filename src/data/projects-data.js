@@ -17,7 +17,7 @@ const projects = [
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti rerum, vitae sapiente tenetur, cupiditate dolorem cum deleniti, aperiam est reiciendis ipsa fuga molestias rem nemo id sint. Consequatur, ullam veritatis.',
     github: '#',
-    website: '#',
+    website: '',
   },
 ];
 
