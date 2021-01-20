@@ -42,7 +42,7 @@ const Navbar = () => (
               href={myResume}
               download="bryan_magalong_resume"
             >
-              <DownloadIcon />My Resume
+              <DownloadIcon />My Resume (fr)
             </a>
           </li>
         </ul>
