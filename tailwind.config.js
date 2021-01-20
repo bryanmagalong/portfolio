@@ -46,10 +46,7 @@ module.exports = {
           dark: '#07063A',
           light: '#682B85',
         },
-        button: {
-          light: '#AC52FC',
-          dark: '#7E3DFA',
-        },
+        hover: '#AC52FC',
         secondary: '#FD6C4D',
       },
     },
