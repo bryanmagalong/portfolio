@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as HomePic } from './../../assets/home-pic-1.svg';
+import { ReactComponent as HomePic } from './../../assets/home-pic.svg';
 
 const Home = () => (
   <div className="pt-16 lg:flex lg:gap-x-50">

@@ -15,12 +15,21 @@ const Contact = () => (
         <ul className="flex gap-x-18 lg:gap-x-41">
           <li>
             <a href="#linkedin">
-              <Linkedin width={30} height={30} />
+              <Linkedin
+                className="hover:text-hover transition-all ease-in-out"
+                width={30}
+                height={30}
+              />
             </a>
           </li>
           <li>
             <a href="#github">
-              <Github icon="github" width={30} height={30} />
+              <Github
+                className="hover:text-hover transition-all ease-in-out"
+                icon="github"
+                width={30}
+                height={30}
+              />
             </a>
           </li>
         </ul>

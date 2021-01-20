@@ -46,6 +46,7 @@ module.exports = {
           dark: '#07063A',
           light: '#682B85',
         },
+        hover: '#AC52FC',
         secondary: '#FD6C4D',
       },
     },

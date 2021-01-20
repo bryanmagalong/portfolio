@@ -15,8 +15,31 @@ module.exports = ({ addComponents }) => {
       },
     },
 
+    '.link': {
+      position: 'relative',
+      textTransform: 'uppercase',
+
+      '&:after': {
+        position: 'absolute',
+        left: '0px',
+        bottom: '0px',
+        width: '0px',
+        height: '2px',
+        background: '#FD6C4D',
+        content: '""',
+        transition: 'all 0.3s',
+      },
+
+      '&:hover:after': {
+        width: '100%',
+      },
+    },
+
     '.active': {
       color: '#FD6C4D',
+      '&:after': {
+        width: '100%',
+      },
     },
   };
 
