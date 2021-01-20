@@ -22,17 +22,17 @@ const Navbar = () => (
       <nav>
         <ul className="flex flex-col items-center lg:flex-row gap-y-7 lg:gap-x-50">
           <li>
-            <NavLink exact to="/">
+            <NavLink className="link" exact to="/">
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/skillset">
+            <NavLink className="link" exact to="/skillset">
               Skillset
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/projects">
+            <NavLink className="link" exact to="/projects">
               Projects
             </NavLink>
           </li>
