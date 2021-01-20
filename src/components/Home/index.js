@@ -3,7 +3,7 @@ import { ReactComponent as HomePic } from './../../assets/home-pic.svg';
 
 const Home = () => (
   <div className="pt-16 lg:flex lg:gap-x-50">
-    <div className="text-white flex flex-col justify-center gap-y-26">
+    <div className="text-white flex flex-col justify-center gap-y-26 lg:animate-slideintoright">
       <p className="text-lg lg:text-xl font-bold uppercase">
         Hello world! I'm <span className="text-secondary">Bryan Magalong</span>.
         Welcome to my website.
@@ -27,7 +27,7 @@ const Home = () => (
     </div>
     <div>
       <HomePic
-        className="hidden xl:block xl:flex xl:items-center"
+        className="hidden xl:animate-slideintoleft xl:block xl:flex xl:items-center"
         width={500}
         height={500}
       />
