@@ -11,11 +11,13 @@ const Home = () => (
       <div className="grid md:grid-cols-3 xl:grid-cols-1">
         <div className="md:col-span-2 md:flex md:items-center">
           <p className="text-lg">
-            I’m a <span className="text-secondary">web developer</span> focused
-            on <span className="text-secondary">front-end</span> stack but open
-            to full stack opportunities. I have a great affinity with{' '}
-            <span className="text-secondary">Javascript</span> and one of its
-            library: <span className="text-secondary">React</span>.
+            I’m a <span className="text-secondary">web developer </span>from
+            France, focused on <span className="text-secondary">
+              front-end
+            </span>{' '}
+            stack but open to full stack opportunities. I have a great affinity
+            with <span className="text-secondary">Javascript</span> and one of
+            its library: <span className="text-secondary">React</span>.
           </p>
         </div>
         <HomePic
