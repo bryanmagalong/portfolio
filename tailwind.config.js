@@ -49,6 +49,34 @@ module.exports = {
         hover: '#AC52FC',
         secondary: '#FD6C4D',
       },
+      keyframes: {
+        slideintoright: {
+          '0%': {
+            transform: 'translateX(-50px)',
+            opacity: '0',
+          },
+          '100%': { transform: 'translateX(0px)', opacity: '1' },
+        },
+        slideintoleft: {
+          '0%': {
+            transform: 'translateX(50px)',
+            opacity: '0',
+          },
+          '100%': { transform: 'translateX(0px)', opacity: '1' },
+        },
+        slideintotop: {
+          '0%': {
+            transform: 'translateY(30px)',
+            opacity: '0',
+          },
+          '100%': { transform: 'translateY(0px)', opacity: '1' },
+        },
+      },
+      animation: {
+        slideintoleft: 'slideintoleft 0.4s ease-in-out',
+        slideintoright: 'slideintoright 0.4s ease-in-out',
+        slideintotop: 'slideintotop 0.4s ease-in-out',
+      },
     },
   },
   plugins: [ plugin(navbarPlugin), plugin(textPlugin) ],

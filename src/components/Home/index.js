@@ -3,7 +3,7 @@ import { ReactComponent as HomePic } from './../../assets/home-pic.svg';
 
 const Home = () => (
   <div className="pt-16 lg:flex lg:gap-x-50">
-    <div className="text-white flex flex-col justify-center gap-y-26">
+    <div className="text-white flex flex-col justify-center gap-y-26 lg:animate-slideintoright">
       <p className="text-lg lg:text-xl font-bold uppercase">
         Hello world! I'm <span className="text-secondary">Bryan Magalong</span>.
         Welcome to my website.
@@ -11,11 +11,13 @@ const Home = () => (
       <div className="grid md:grid-cols-3 xl:grid-cols-1">
         <div className="md:col-span-2 md:flex md:items-center">
           <p className="text-lg">
-            I’m a <span className="text-secondary">web developer</span> focused
-            on <span className="text-secondary">front-end</span> stack but open
-            to full stack opportunities. I have a great affinity with{' '}
-            <span className="text-secondary">Javascript</span> and one of its
-            library: <span className="text-secondary">React</span>.
+            I’m a <span className="text-secondary">web developer </span>from
+            France, focused on <span className="text-secondary">
+              front-end
+            </span>{' '}
+            stack but open to full stack opportunities. I have a great affinity
+            with <span className="text-secondary">Javascript</span> and one of
+            its library: <span className="text-secondary">React</span>.
           </p>
         </div>
         <HomePic
@@ -27,7 +29,7 @@ const Home = () => (
     </div>
     <div>
       <HomePic
-        className="hidden xl:block xl:flex xl:items-center"
+        className="hidden xl:animate-slideintoleft xl:block xl:flex xl:items-center"
         width={500}
         height={500}
       />
