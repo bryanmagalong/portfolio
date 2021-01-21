@@ -9,12 +9,6 @@ module.exports = ({ addComponents }) => {
       padding: '1.250rem 2.813rem',
     },
 
-    '.drop-visible': {
-      '& + #menu': {
-        display: 'block',
-      },
-    },
-
     '.link': {
       position: 'relative',
       textTransform: 'uppercase',
