@@ -1,5 +1,7 @@
 import React from 'react';
 import NavList from '../../containers/NavList';
+import { ReactComponent as MenuIcon } from './../../assets/icons/menu.svg';
+import { ReactComponent as CloseIcon } from './../../assets/icons/close.svg';
 
 const Navbar = ({ menuOpened, toggleMenu }) => {
   return (
@@ -10,7 +12,11 @@ const Navbar = ({ menuOpened, toggleMenu }) => {
         className="block lg:hidden"
         onClick={() => toggleMenu(!menuOpened)}
       >
-        Menu
+        {!menuOpened ? (
+          <MenuIcon width={25} height={25} />
+        ) : (
+          <CloseIcon width={25} height={25} />
+        )}
       </button>
       <NavList show={menuOpened} />
     </div>
