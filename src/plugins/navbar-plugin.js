@@ -2,12 +2,12 @@ module.exports = ({ addComponents }) => {
   const navbar = {
     '.navbar': {
       minHeight: '3.500rem',
-      padding: '1.250rem 1.625rem',
+      padding: '0.6rem 1.625rem',
       zIndex: '1',
     },
 
     '.navbar-lg': {
-      padding: '1.250rem 2.813rem',
+      padding: '0.6rem 2.813rem',
     },
 
     '.link': {
