@@ -12,12 +12,7 @@ module.exports = ({ addComponents }) => {
     },
 
     '.learning': {
-      '&:before': {
-        display: 'block',
-        position: 'absolute',
-        top: '20px',
-        left: '9px',
-        transform: 'rotate(-40deg)',
+      '&:after': {
         content: '"Learning"',
         color: 'white',
         textTransform: 'uppercase',

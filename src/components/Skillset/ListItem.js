@@ -54,9 +54,9 @@ const ListItem = ({ name, learning }) => {
   };
 
   return (
-    <li className={`text-center ${learning && 'relative'}`}>
+    <li className={`text-center ${learning && 'learning'}`}>
       {checkNameIcon(name)}
-      <p className={`mt-10 ${learning && 'learning'}`}>{name}</p>
+      <p className="mt-10">{name}</p>
     </li>
   );
 };
