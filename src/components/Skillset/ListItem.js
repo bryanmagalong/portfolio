@@ -15,7 +15,7 @@ import { ReactComponent as GitIcon } from './../../assets/icons/git.svg';
 import { ReactComponent as AdobeXDIcon } from './../../assets/icons/adobexd.svg';
 import { ReactComponent as PostmanIcon } from './../../assets/icons/postman.svg';
 
-const ListItem = ({ name }) => {
+const ListItem = ({ name, learning }) => {
   const checkNameIcon = (name) => {
     switch (name) {
       case 'HTML':
@@ -54,7 +54,7 @@ const ListItem = ({ name }) => {
   };
 
   return (
-    <li className="text-center">
+    <li className={`text-center ${learning && 'learning'}`}>
       {checkNameIcon(name)}
       <p className="mt-10">{name}</p>
     </li>

@@ -10,6 +10,15 @@ module.exports = ({ addComponents }) => {
         fontSize: '2.250em',
       },
     },
+
+    '.learning': {
+      '&:after': {
+        content: '"Learning"',
+        color: 'white',
+        textTransform: 'uppercase',
+        fontWeight: 'bold',
+      },
+    },
   };
 
   addComponents(texts, { variants: [ 'responsive' ] });
