@@ -3,7 +3,7 @@ import NavList from '../components/Navbar/NavList';
 
 import { toggleMenu } from '../actions/events';
 
-const mapStateToProps = (state) => {};
+const mapStateToProps = (state) => ({});
 
 const mapDispatchToProps = (dispatch) => ({
   toggleMenu: (payload) => {
