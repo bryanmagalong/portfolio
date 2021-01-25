@@ -8,7 +8,15 @@ const Contact = () => (
     <div className="grid lg:grid-cols-2 lg:gap-x-20">
       <div className="mt-text-gutter-y lg:flex lg:justify-end lg:items-center lg:gap-x-41">
         <p>Open to Work</p>
-        <p>Email: bryanmagalong.dev@gmail.com</p>
+        <p>
+          Email me:{' '}
+          <a
+            className="hover:text-white"
+            href="mailto:bryanmagalong.dev@gmail.com"
+          >
+            bryanmagalong.dev@gmail.com
+          </a>
+        </p>
       </div>
       <div className="mt-text-gutter-y lg:flex lg:items-center lg:gap-x-41">
         <h2 className="font-bold text-social">Find me on:</h2>
@@ -20,7 +28,7 @@ const Contact = () => (
               rel="noopener noreferrer"
             >
               <Linkedin
-                className="hover:text-hover transition-all ease-in-out"
+                className="hover:text-white transition-all ease-in-out"
                 width={30}
                 height={30}
               />
@@ -33,7 +41,7 @@ const Contact = () => (
               rel="noopener noreferrer"
             >
               <Github
-                className="hover:text-hover transition-all ease-in-out"
+                className="hover:text-white transition-all ease-in-out"
                 icon="github"
                 width={30}
                 height={30}
