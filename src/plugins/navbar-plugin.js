@@ -3,6 +3,7 @@ module.exports = ({ addComponents }) => {
     '.navbar': {
       minHeight: '3.500rem',
       padding: '1.250rem 1.625rem',
+      zIndex: '1',
     },
 
     '.navbar-lg': {
