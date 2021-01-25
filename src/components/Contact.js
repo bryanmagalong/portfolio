@@ -3,7 +3,7 @@ import { ReactComponent as Linkedin } from './../assets/icons/linkedin.svg';
 import { ReactComponent as Github } from './../assets/icons/github.svg';
 
 const Contact = () => (
-  <div className="text-secondary px-sm lg:px-lg pt-contact-gutter-y pb-45 lg:text-center bg-primary-dark">
+  <footer className="text-secondary px-sm lg:px-lg pt-contact-gutter-y pb-45 lg:text-center bg-primary-dark">
     <h1 className="font-bold text-contact uppercase">Contact</h1>
     <div className="grid lg:grid-cols-2 lg:gap-x-20">
       <div className="mt-text-gutter-y lg:flex lg:justify-end lg:items-center lg:gap-x-41">
@@ -65,7 +65,7 @@ const Contact = () => (
         </a>
       </p>
     </div>
-  </div>
+  </footer>
 );
 
 export default Contact;

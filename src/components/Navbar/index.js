@@ -5,7 +5,7 @@ import { ReactComponent as CloseIcon } from './../../assets/icons/close.svg';
 
 const Navbar = ({ menuOpened, toggleMenu }) => {
   return (
-    <div className="navbar fixed lg:navbar-lg w-full flex flex-wrap lg:flex-nowrap justify-between items-center bg-primary-dark text-white">
+    <header className="navbar fixed lg:navbar-lg w-full flex flex-wrap lg:flex-nowrap justify-between items-center bg-primary-dark text-white">
       <div className="flex flex-col uppercase font-bold">
         <span>Bryan</span>
         <span>Magalong</span>
@@ -22,7 +22,7 @@ const Navbar = ({ menuOpened, toggleMenu }) => {
         )}
       </button>
       <NavList show={menuOpened} />
-    </div>
+    </header>
   );
 };
 
