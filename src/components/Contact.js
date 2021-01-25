@@ -7,14 +7,18 @@ const Contact = () => (
     <h1 className="font-bold text-contact uppercase">Contact</h1>
     <div className="grid lg:grid-cols-2 lg:gap-x-20">
       <div className="mt-text-gutter-y lg:flex lg:justify-end lg:items-center lg:gap-x-41">
-        <p>Phone: 06********</p>
-        <p>Email: **********@gmail.com</p>
+        <p>Open to Work</p>
+        <p>Email: bryanmagalong.dev@gmail.com</p>
       </div>
       <div className="mt-text-gutter-y lg:flex lg:items-center lg:gap-x-41">
         <h2 className="font-bold text-social">Find me on:</h2>
         <ul className="flex gap-x-18 lg:gap-x-41">
           <li>
-            <a href="#linkedin">
+            <a
+              href="https://www.linkedin.com/in/bryan-magalong/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Linkedin
                 className="hover:text-hover transition-all ease-in-out"
                 width={30}
@@ -23,7 +27,11 @@ const Contact = () => (
             </a>
           </li>
           <li>
-            <a href="#github">
+            <a
+              href="https://github.com/bryanmagalong"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Github
                 className="hover:text-hover transition-all ease-in-out"
                 icon="github"
@@ -38,8 +46,15 @@ const Contact = () => (
     <div className="text-center text-sm mt-45">
       <p>This site is built in React and TailwindCSS</p>
       <p>
-        Design inspired from Budiarti Ar-Rohman's shots
-        (https://dribbble.com/budiartirohman)
+        Design inspired from{' '}
+        <a
+          className="hover:text-white"
+          href="https://dribbble.com/budiartirohman"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Budiarti Ar-Rohman's shots (Dribble)
+        </a>
       </p>
     </div>
   </div>
