@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectList from './ProjectList';
+import ProjectList from './../../containers/ProjectList';
 
 const Projects = () => (
   <section className="my-106 lg:animate-slideintotop">
