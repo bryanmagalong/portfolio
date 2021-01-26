@@ -18,7 +18,7 @@ module.exports = ({ addComponents }) => {
         position: 'absolute',
         left: '0px',
         bottom: '0px',
-        width: '0px',
+        width: '10px',
         height: '2px',
         background: '#FD6C4D',
         content: '""',

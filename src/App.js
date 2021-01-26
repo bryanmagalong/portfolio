@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './containers/Navbar';
 import ContentWrapper from './components/ContentWrapper';
 import Projects from './components/Projects';
-import Skillset from './components/Skillset';
+import Skillset from './containers/Skillset';
 import Home from './components/Home';
 import Contact from './components/Contact.js';
 import './App.css';

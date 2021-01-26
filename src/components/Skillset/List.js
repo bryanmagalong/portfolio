@@ -4,14 +4,14 @@ import PropTypes from 'prop-types';
 import ListItem from './ListItem';
 
 const List = ({ title, list, className }) => (
-  <div className={className}>
+  <section className={className}>
     <h1 className="title lg:title-lg">{title}</h1>
     <ul className="grid grid-cols-3 xl:grid-cols-4 gap-x-sm gap-y-35 text-white mt-35">
       {list.map((elem) => (
         <ListItem key={elem.name} name={elem.name} learning={elem.learning} />
       ))}
     </ul>
-  </div>
+  </section>
 );
 
 List.propTypes = {

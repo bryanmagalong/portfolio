@@ -1,11 +1,11 @@
 import React from 'react';
-import ProjectList from './ProjectList';
+import ProjectList from './../../containers/ProjectList';
 
 const Projects = () => (
-  <div className="my-106 lg:animate-slideintotop">
+  <section className="my-106 lg:animate-slideintotop">
     <h1 className="title lg:title-lg">Projects</h1>
     <ProjectList />
-  </div>
+  </section>
 );
 
 export default Projects;
